@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.menu {
+    background-color: red;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 35;
+
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.content img {
+    width: 45%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+
+.menu-links a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.menu-links a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu-links a:active {
+    color: rgb(0, 0, 0);
+}
+
+.intro-text {
+    text-align: right;
+}
+
